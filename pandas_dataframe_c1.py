@@ -35,9 +35,11 @@ print(mod1_data_df)
 mod2_data_df = data_df.drop(columns =['A','D'])
 print(mod2_data_df)
 
+# Remove all columns between a specific column name to another columns name
 mod3_data_df = data_df.drop(data_df.loc[:, 'A':'C'].columns, axis = 1)
 print(mod3_data_df)
 
+# Drop a row by index
 mod4_data_df = data_df.drop([2,3])
 print(mod4_data_df)
 
