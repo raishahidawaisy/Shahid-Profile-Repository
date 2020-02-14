@@ -1,0 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Create user session,14984,10100,967,393307,16408.54,1.041%,30.61439,13.26,10.06,443.7
+Moderate Text,14981,9121,233,387523,14222.84,2.096%,30.26232,10.65,7.74,360.2
+TOTAL,29965,9611,233,393307,15362.54,1.568%,59.99491,23.55,17.53,402.0
